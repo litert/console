@@ -33,7 +33,7 @@
         "name" : "console"
     }],
     "keywords" : [
-        "privilege", "control"
+        "console", "input", "output", "error"
     ],
     "extra": {
         "branch-alias": {
