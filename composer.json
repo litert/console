@@ -1,0 +1,43 @@
+{
+    "name" : "litert/console",
+    "description" : "The console of LiteRT.",
+    "type" : "library",
+    "license" : "Apache-2.0",
+    "version": "0.1.0",
+    "minimum-stability": "stable",
+    "autoload" : {
+        "psr-4" : {
+            "L\\Kits\\" : "lib"
+        }
+    },
+    "homepage" : "https://fenying.net",
+    "support" : {
+        "email" : "i.am.x.fenying@gmail.com",
+        "issues" : "https://github.com/litert/console/issues",
+        "source" : "https://github.com/litert/console/"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "litert/core": "^0.1.0"
+    },
+    "authors" : [{
+            "name" : "Angus.Fenying",
+            "email" : "i.am.x.fenying@gmail.com",
+            "homepage" : "https://fenying.net",
+            "role" : "Master"
+        }
+    ],
+    "repositories" : [{
+        "type" : "git",
+        "url" : "git@github.com:litert/console.git",
+        "name" : "console"
+    }],
+    "keywords" : [
+        "privilege", "control"
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
