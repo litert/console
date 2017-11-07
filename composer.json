@@ -17,8 +17,7 @@
         "source" : "https://github.com/litert/console/"
     },
     "require": {
-        "php": ">=7.0.0",
-        "litert/core": "^0.1.0"
+        "php": ">=7.0.0"
     },
     "authors" : [{
             "name" : "Angus.Fenying",
@@ -37,7 +36,7 @@
     ],
     "extra": {
         "branch-alias": {
-            "dev-master": "0.1.x-dev"
+            "dev-master": "0.2.x-dev"
         }
     }
 }
